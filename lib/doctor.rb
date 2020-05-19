@@ -18,4 +18,8 @@ class Doctor
 		end
 	end
 
+	def new_meal
+    Meal.new(self, customer, total, tip)
+  end
+
 end
