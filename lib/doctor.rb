@@ -18,7 +18,7 @@ class Doctor
 		end
 	end
 
-	def new_appointment(date, patient, doctor)
+	def new_appointment(date, patient)
     Meal.new(date, patient, self)
   end
 
